@@ -8,7 +8,7 @@
 
 ### Here's how the LCD board looks like
 ![Photos of the board](img/0802-lcd.jpg)
-It has 14 pins on the left.
+It has 14 pins stacked on the left of the display.
 
 ### After soldering some headers to the LCD board I connected these pins to my Arduino Nano like this:
 
