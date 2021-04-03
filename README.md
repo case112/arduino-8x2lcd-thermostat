@@ -94,12 +94,15 @@ It has 14 pins stacked on the left of the display.
         // do nothing in 'loop'
       }
 
-### If everything is wired correctly you should see this:
+### If display is wired correctly you should see this:
 ![This works!](img/lcd-works.jpg)
 
 ## Setting up and wiring a DS18B20 temperature sensor
 
-Some text here soon
+### Here's how the temp sensor looks like
+![Photos of the board](img/ds18b20.jpg)
+It uses 1-wire communication.
+
 
 ## Setting up and wiring a 5V relay module
 
