@@ -1,6 +1,4 @@
 ### Setting up and assembling a basic programmable thermostat with a small LCD display which senses the temperature of a physical system and performs actions so that the system's temperature is maintained near a desired setpoint. 
-### A work in progress...
-
 
 # Setting everything up
 
@@ -98,7 +96,7 @@ It has 14 pins stacked on the left of the display.
 ![This works!](img/lcd-works.jpg)
 
 ### If you wish to control the backlight of the display
-The backlight is automatically lit and is connected to pins 1 and 2 in common with the LCD. I ended up scraping the connection gently with a stanley knife and managed to cut the common connection. Then I soldered a wire to a connection just below the J3.
+The backlight is automatically lit and is connected to pins 1 and 2 in common with the LCD. I ended up scraping the J3 connection gently with a stanley knife and managed to cut the common connection. Then I soldered a wire to a connection just below the J3.
 ![Hacking the display](img/0802-controlling-backlight.jpg)
 
 Now it would be possible to use a arduino pin or a button to control the display backlight. I used a simple button to do the job:
